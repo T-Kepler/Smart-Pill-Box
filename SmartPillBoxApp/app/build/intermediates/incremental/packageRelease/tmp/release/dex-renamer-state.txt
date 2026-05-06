@@ -1,0 +1,4 @@
+#Mon May 04 17:51:39 CST 2026
+base.0=D\:\\Keil Project (MDK)\\PILLBOX V2.0\\SmartPillBoxApp\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

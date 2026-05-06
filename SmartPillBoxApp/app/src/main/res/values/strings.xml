@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">智能药盒</string>
+    <string name="temperature_format">温度: %1$d °C</string>
+    <string name="humidity_format">湿度: %1$d %%</string>
+    <string name="medicine_format">药品余量: %1$d %%</string>
+    <string name="brightness_format">亮度: %1$d %%</string>
+    <string name="battery_format">电量: %1$d %% (%2$d mV)</string>
+    <string name="volume_format">音量: %1$d</string>
+    <string name="status_on">运行中</string>
+    <string name="status_off">已关闭</string>
+    <string name="led_on">点亮</string>
+    <string name="led_off">熄灭</string>
+    <string name="box_open">已开启</string>
+    <string name="box_closed">已关闭</string>
+    <string name="wifi_connected">已连接</string>
+    <string name="wifi_disconnected">未连接</string>
+    <string name="fetch_failed">获取状态失败: %1$s</string>
+    <string name="parse_error">解析数据失败</string>
+    <string name="connection_failed">无法连接到设备</string>
+    <string name="pillbox_opened">药盒已开启</string>
+    <string name="pillbox_open_failed">开启药盒失败</string>
+    <string name="volume_adjusted">音量已调整</string>
+    <string name="volume_adjust_failed">调整音量失败</string>
+    <string name="alarm_set">服药提醒%1$d已设置</string>
+    <string name="reminder_time">提醒时间%1$d: %2$s</string>
+    <string name="reminder_none">提醒时间%1$d: 无</string>
+    <string name="reminder_notify">提醒%1$d: 该吃药了！</string>
+</resources>

@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartpillboxapp"
+4    android:versionCode="1"
+5    android:versionName="2.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:7:5-76
+13-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:8:5-81
+14-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:9:5-66
+15-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:9:22-63
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:10:5-68
+16-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+17-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+18-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:12:5-74
+18-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:12:22-71
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:13:5-77
+19-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:13:22-74
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\c5de34b7964143a69bc267aa510b2bde\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+22        android:name="com.example.smartpillboxapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\c5de34b7964143a69bc267aa510b2bde\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\c5de34b7964143a69bc267aa510b2bde\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.example.smartpillboxapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\c5de34b7964143a69bc267aa510b2bde\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\c5de34b7964143a69bc267aa510b2bde\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:15:5-44:19
+28        android:allowBackup="true"
+28-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\c5de34b7964143a69bc267aa510b2bde\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:17:9-65
+31        android:extractNativeLibs="true"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:18:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="@string/app_name"
+34-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:20:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:21:9-54
+36        android:supportsRtl="true"
+36-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:22:9-35
+37        android:theme="@style/Theme.SmartPillBoxApp"
+37-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:23:9-53
+38        android:usesCleartextTraffic="true" >
+38-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:24:9-44
+39        <activity
+39-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:27:9-34:20
+40            android:name="com.example.smartpillboxapp.MainActivity"
+40-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:28:13-41
+41            android:exported="true" >
+41-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:29:13-36
+42            <intent-filter>
+42-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:30:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:31:17-69
+43-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:31:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:32:17-77
+45-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:32:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <receiver
+49-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:36:9-43:20
+50            android:name="com.example.smartpillboxapp.MainActivity$ReminderReceiver"
+50-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:37:13-58
+51            android:enabled="true"
+51-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:38:13-35
+52            android:exported="false" >
+52-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:39:13-37
+53            <intent-filter>
+53-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:40:13-42:29
+54                <action android:name="android.intent.action.BOOT_COMPLETED" />
+54-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:41:17-79
+54-->D:\Keil Project (MDK)\PILLBOX V2.0\SmartPillBoxApp\app\src\main\AndroidManifest.xml:41:25-76
+55            </intent-filter>
+56        </receiver>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\ec6944884f33d422e7423ad771bef303\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\ec6944884f33d422e7423ad771bef303\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60            android:authorities="com.example.smartpillboxapp.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\ec6944884f33d422e7423ad771bef303\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\ec6944884f33d422e7423ad771bef303\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\ec6944884f33d422e7423ad771bef303\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\ec6944884f33d422e7423ad771bef303\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kepler\.gradle\caches\8.9\transforms\ec6944884f33d422e7423ad771bef303\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kepler\.gradle\caches\8.9\transforms\12c54f0b64be724c70f1e16bc8a2c8e4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kepler\.gradle\caches\8.9\transforms\12c54f0b64be724c70f1e16bc8a2c8e4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kepler\.gradle\caches\8.9\transforms\12c54f0b64be724c70f1e16bc8a2c8e4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>

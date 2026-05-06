@@ -1,0 +1,76 @@
+// 1. buildscript 必须放在最顶部！
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.2.0"
+    }
+}
+
+// 2. plugins 必须在 buildscript 之后，android 之前
+plugins {
+    id 'com.android.application'
+}
+
+// 3. android 配置块
+android {
+    namespace 'com.example.smartpillboxapp'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.smartpillboxapp"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "2.6"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    applicationVariants.all { variant ->
+        // 新版AGP推荐用forEach替代each，消除废弃警告
+        variant.outputs.forEach { output ->
+            // 自动拼接版本号、打包类型，一劳永逸
+            def fileName = "智能药盒.apk"
+            output.outputFileName = fileName
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+// 4. allprojects 放在最后（可选，建议保留）
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        mavenCentral()
+    }
+}
+
+// 5. 依赖块
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.android.volley:volley:1.2.1'
+}
